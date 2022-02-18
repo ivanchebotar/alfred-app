@@ -1,6 +1,6 @@
-# alfred
+# Alfred
 
-This id a small app that can help you to order your tasks. 
+This is a simple app that can help you to order your tasks. 
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
