@@ -1,0 +1,127 @@
+// out: ../css/index.css
+
+// lg
+@media (max-width: 1200px) {
+    .wrapper {
+        padding: 0 30px;
+    }
+    
+}
+
+// md
+@media (max-width: 900px) {
+    
+}
+
+// sm
+@media (max-width: 600px) {
+    .main-section {
+        height: auto;
+
+        .page1 {
+            .progress-bar {
+                top: 60vh;
+                width: 80%;
+            }
+        }
+        .page2 {
+            .form {
+                padding-top: 50px;
+
+                .enter {
+                    padding: 15px 25px;
+                }
+                .main-list {
+                    height: 440px;
+                    margin: 40px 0;
+    
+                    .list {
+                        .list {
+                            .content {
+                                input[type="checkbox"] {
+                                    top: -2px;
+                                }
+                            }
+                        }
+                        .content {
+                            label {
+                                &::before {
+                                    width: 95%;
+                                }
+                            }
+                        }
+                        .btn {
+                            .fas {
+                                position: relative;
+                                top: 3px;
+                                cursor: pointer;
+                                font-size: 25px;
+
+                                &:hover {
+                                    transform: rotate(0deg);
+                                }
+                            }
+                        }
+                    }
+                }
+                .bottom-btn {
+                    .main-btn {
+                        width: 50%;
+                        
+                        &:hover {
+                            background-color: rgb(171, 0, 0);
+                            border: 2px solid rgb(255, 255, 255);
+                            color: rgb(255, 255, 255);
+                        }
+                        &:active {
+                            background-color: rgb(255, 255, 255);
+                            color: rgb(171, 0, 0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// xs
+@media (max-height: 750px) {
+    .main-section {
+        height: auto;
+
+        .page2 {
+            .form {
+                padding-top: 40px;
+
+                .enter {
+                    padding: 15px 25px;
+                }
+                .main-list {
+                    height: 320px;
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+}
+
+// xs
+@media (max-height: 600px) {
+    .main-section {
+        height: auto;
+
+        .page2 {
+            .form {
+                padding-top: 40px;
+
+                .enter {
+                    padding: 15px 25px;
+                }
+                .main-list {
+                    height: 250px;
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+}
